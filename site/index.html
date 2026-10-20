@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MLBB Draft Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="logo">◆</span> MLBB <b>Draft Lab</b></div>
+    <nav class="tabs" id="nav">
+      <button data-page="draft" class="active">Draft</button>
+      <button data-page="meta">Meta</button>
+      <button data-page="teams">Teams</button>
+      <button data-page="heroes">Heroes</button>
+      <button data-page="matches">Matches</button>
+    </nav>
+    <div class="filters">
+      <div class="region-chips" id="regionChips"></div>
+      <select id="periodSel" title="Data window">
+        <option value="90">Last 90 days</option>
+        <option value="180">Last 180 days</option>
+        <option value="365" selected>Last 12 months</option>
+        <option value="0">All data</option>
+      </select>
+      <span class="data-info" id="dataInfo"></span>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= DRAFT ================= -->
+    <section id="page-draft" class="page active">
+      <div class="draft-controls">
+        <select id="modeSel">
+          <option value="mpl">Tournament (MPL) · 10 bans</option>
+          <option value="mythic">Ranked Mythic · 10 bans</option>
+          <option value="legend">Ranked Epic/Legend · 6 bans</option>
+        </select>
+        <label class="toggle"><input type="checkbox" id="aiToggle"> AI controls <span id="aiSideLbl">Red</span></label>
+        <select id="aiSideSel"><option value="1">Red</option><option value="0">Blue</option></select>
+        <button id="undoBtn" class="btn">↶ Undo</button>
+        <button id="swapBtn" class="btn">⇄ Swap sides</button>
+        <button id="resetBtn" class="btn danger">Reset</button>
+      </div>
+
+      <div class="board">
+        <div class="board-head">
+          <div class="team-head blue">
+            <select class="team-sel" id="teamSel0"><option value="">Blue side — any team</option></select>
+            <div class="bans" id="bans0"></div>
+          </div>
+          <div class="phase-box">
+            <div class="phase" id="phaseLbl">BAN PHASE</div>
+            <div class="turn" id="turnLbl">Blue bans</div>
+            <div class="timer" id="timer">30</div>
+            <div class="winbar" title="Rough draft advantage from pro stats">
+              <div class="winfill" id="winFill"></div>
+              <span id="winTxt">50 : 50</span>
+            </div>
+          </div>
+          <div class="team-head red">
+            <select class="team-sel" id="teamSel1"><option value="">Red side — any team</option></select>
+            <div class="bans" id="bans1"></div>
+          </div>
+        </div>
+
+        <div class="board-body">
+          <div class="picks blue" id="picks0"></div>
+          <div class="pool">
+            <div class="suggest-strip" id="suggestStrip"></div>
+            <div class="pool-tools">
+              <input id="search" placeholder="Search hero…" autocomplete="off">
+              <div class="lane-filter" id="laneFilter"></div>
+              <select id="sortSel">
+                <option value="name">A–Z</option>
+                <option value="presence">Pro presence</option>
+                <option value="wr">Win rate</option>
+                <option value="suggest">Suggestion score</option>
+              </select>
+            </div>
+            <div class="hero-grid" id="heroGrid"></div>
+          </div>
+          <div class="picks red" id="picks1"></div>
+        </div>
+      </div>
+
+      <div class="analysis">
+        <div class="card wide">
+          <div class="card-title"><span id="sugTitle">Suggestions</span><span class="muted" id="sugSub"></span></div>
+          <div id="sugList" class="sug-list"></div>
+        </div>
+        <div class="card">
+          <div class="card-title">Enemy outlook <span class="muted" id="predSub"></span></div>
+          <div id="predList"></div>
+        </div>
+        <div class="card">
+          <div class="card-title blue-t">Blue composition</div>
+          <div id="comp0"></div>
+        </div>
+        <div class="card">
+          <div class="card-title red-t">Red composition</div>
+          <div id="comp1"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= META ================= -->
+    <section id="page-meta" class="page">
+      <div class="page-head">
+        <h2>Hero meta</h2>
+        <input id="metaSearch" placeholder="Filter heroes…">
+        <div class="lane-filter" id="metaLane"></div>
+      </div>
+      <div class="table-wrap"><table class="data" id="metaTable"></table></div>
+    </section>
+
+    <!-- ================= TEAMS ================= -->
+    <section id="page-teams" class="page">
+      <div class="page-head">
+        <h2>Team scouting</h2>
+        <select id="teamPageSel"></select>
+      </div>
+      <div id="teamReport"></div>
+    </section>
+
+    <!-- ================= HEROES ================= -->
+    <section id="page-heroes" class="page">
+      <div class="page-head">
+        <h2>Hero lookup</h2>
+        <input id="heroPageSearch" placeholder="Type a hero…" list="heroDatalist">
+        <datalist id="heroDatalist"></datalist>
+      </div>
+      <div id="heroReport"></div>
+    </section>
+
+    <!-- ================= MATCHES ================= -->
+    <section id="page-matches" class="page">
+      <div class="page-head">
+        <h2>Pro games</h2>
+        <input id="matchSearch" placeholder="Filter by team or hero…">
+        <span class="muted" id="matchCount"></span>
+      </div>
+      <div id="matchList"></div>
+    </section>
+  </main>
+
+  <div id="tooltip" class="tooltip"></div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

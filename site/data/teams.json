@@ -1,0 +1,622 @@
+[
+ {
+  "name": "1 Team",
+  "logo": "assets/teams/1_Team.png"
+ },
+ {
+  "name": "AC Esports",
+  "logo": "assets/teams/AC_Esports.png"
+ },
+ {
+  "name": "AI Esports",
+  "logo": "assets/teams/AI_Esports.png"
+ },
+ {
+  "name": "AP.Bren",
+  "logo": "assets/teams/AP_Bren.png"
+ },
+ {
+  "name": "Actual Esports",
+  "logo": "assets/teams/Actual_Esports.png"
+ },
+ {
+  "name": "Aero Esports",
+  "logo": "assets/teams/Aero_Esports.png"
+ },
+ {
+  "name": "Alpha7 North",
+  "logo": "assets/teams/Alpha7_North.png"
+ },
+ {
+  "name": "Alter Ego",
+  "logo": "assets/teams/Alter_Ego.png"
+ },
+ {
+  "name": "Area 77",
+  "logo": "assets/teams/Area_77.png"
+ },
+ {
+  "name": "Art of War",
+  "logo": "assets/teams/Art_of_War.png"
+ },
+ {
+  "name": "Aurora Gaming",
+  "logo": "assets/teams/Aurora_Gaming.png"
+ },
+ {
+  "name": "Aurora Gaming PH",
+  "logo": null
+ },
+ {
+  "name": "Axe Okami",
+  "logo": "assets/teams/Axe_Okami.png"
+ },
+ {
+  "name": "Bigetron MY by VIT",
+  "logo": "assets/teams/Bigetron_MY_by_VIT.png"
+ },
+ {
+  "name": "Bigetron by Vitality",
+  "logo": "assets/teams/Bigetron_by_Vitality.png"
+ },
+ {
+  "name": "Black Sentence Esports",
+  "logo": "assets/teams/Black_Sentence_Esports.png"
+ },
+ {
+  "name": "Blacklist International",
+  "logo": "assets/teams/Blacklist_International.png"
+ },
+ {
+  "name": "Blade Violet",
+  "logo": "assets/teams/Blade_Violet.png"
+ },
+ {
+  "name": "BloodThirstyKings",
+  "logo": "assets/teams/BloodThirstyKings.png"
+ },
+ {
+  "name": "Boostgate Esports",
+  "logo": "assets/teams/Boostgate_Esports.png"
+ },
+ {
+  "name": "Bosuul",
+  "logo": "assets/teams/Bosuul.png"
+ },
+ {
+  "name": "CFU Gaming",
+  "logo": "assets/teams/CFU_Gaming.png"
+ },
+ {
+  "name": "CG Esports",
+  "logo": "assets/teams/CG_Esports.png"
+ },
+ {
+  "name": "Corinthians",
+  "logo": "assets/teams/Corinthians.png"
+ },
+ {
+  "name": "DX Originz",
+  "logo": "assets/teams/DX_Originz.png"
+ },
+ {
+  "name": "Dewa United Esports",
+  "logo": "assets/teams/Dewa_United_Esports.png"
+ },
+ {
+  "name": "DianFengYaoGuai",
+  "logo": "assets/teams/DianFengYaoGuai.png"
+ },
+ {
+  "name": "Duck Rice Esports",
+  "logo": "assets/teams/Duck_Rice_Esports.png"
+ },
+ {
+  "name": "EVOS",
+  "logo": "assets/teams/EVOS.png"
+ },
+ {
+  "name": "Entity7",
+  "logo": "assets/teams/Entity7.png"
+ },
+ {
+  "name": "Eternal Tactics",
+  "logo": "assets/teams/Eternal_Tactics.png"
+ },
+ {
+  "name": "Evil",
+  "logo": "assets/teams/Evil.png"
+ },
+ {
+  "name": "Evil Eye Esports",
+  "logo": "assets/teams/Evil_Eye_Esports.png"
+ },
+ {
+  "name": "Execute",
+  "logo": "assets/teams/Execute.png"
+ },
+ {
+  "name": "FUT Esports",
+  "logo": "assets/teams/FUT_Esports.png"
+ },
+ {
+  "name": "Falcon Esports",
+  "logo": "assets/teams/Falcon_Esports.png"
+ },
+ {
+  "name": "GAMAX Esports",
+  "logo": "assets/teams/GAMAX_Esports.png"
+ },
+ {
+  "name": "GDY",
+  "logo": "assets/teams/GDY.png"
+ },
+ {
+  "name": "GS Team",
+  "logo": "assets/teams/GS_Team.png"
+ },
+ {
+  "name": "Galaxy Legends",
+  "logo": "assets/teams/Galaxy_Legends.png"
+ },
+ {
+  "name": "Galaxy Phoenix",
+  "logo": "assets/teams/Galaxy_Phoenix.png"
+ },
+ {
+  "name": "GamesMY Kelantan",
+  "logo": "assets/teams/GamesMY_Kelantan.png"
+ },
+ {
+  "name": "Geek Fam ID",
+  "logo": "assets/teams/Geek_Fam_ID.png"
+ },
+ {
+  "name": "Geekay Esports",
+  "logo": "assets/teams/Geekay_Esports.png"
+ },
+ {
+  "name": "Giving Youth Glory",
+  "logo": "assets/teams/Giving_Youth_Glory.png"
+ },
+ {
+  "name": "Guangzhou Gaming",
+  "logo": "assets/teams/Guangzhou_Gaming.png"
+ },
+ {
+  "name": "HomeBois",
+  "logo": "assets/teams/HomeBois.png"
+ },
+ {
+  "name": "HyperWorld",
+  "logo": "assets/teams/HyperWorld.png"
+ },
+ {
+  "name": "IGNITE Gaming",
+  "logo": "assets/teams/IGNITE_Gaming.png"
+ },
+ {
+  "name": "IHC Esports",
+  "logo": "assets/teams/IHC_Esports.png"
+ },
+ {
+  "name": "INFLUENCE RAGE",
+  "logo": "assets/teams/INFLUENCE_RAGE.png"
+ },
+ {
+  "name": "Imperium",
+  "logo": "assets/teams/Imperium.png"
+ },
+ {
+  "name": "Inari Perfection",
+  "logo": "assets/teams/Inari_Perfection.png"
+ },
+ {
+  "name": "Insilio",
+  "logo": "assets/teams/Insilio.png"
+ },
+ {
+  "name": "Invictus Gaming",
+  "logo": "assets/teams/Invictus_Gaming.png"
+ },
+ {
+  "name": "JP NINERS",
+  "logo": "assets/teams/JP_NINERS.png"
+ },
+ {
+  "name": "Java Plus",
+  "logo": "assets/teams/Java_Plus.png"
+ },
+ {
+  "name": "KeepBest Gaming",
+  "logo": "assets/teams/KeepBest_Gaming.png"
+ },
+ {
+  "name": "King of Gamers Club",
+  "logo": "assets/teams/King_of_Gamers_Club.png"
+ },
+ {
+  "name": "Kingdom of Magic",
+  "logo": "assets/teams/Kingdom_of_Magic.png"
+ },
+ {
+  "name": "LLG Open Sesame",
+  "logo": "assets/teams/LLG_Open_Sesame.png"
+ },
+ {
+  "name": "LOT",
+  "logo": "assets/teams/LOT.png"
+ },
+ {
+  "name": "Last Chance",
+  "logo": "assets/teams/Last_Chance.png"
+ },
+ {
+  "name": "Legion Esports",
+  "logo": "assets/teams/Legion_Esports.png"
+ },
+ {
+  "name": "Leon Esports",
+  "logo": "assets/teams/Leon_Esports.png"
+ },
+ {
+  "name": "MCC GM",
+  "logo": "assets/teams/MCC_GM.png"
+ },
+ {
+  "name": "MGF",
+  "logo": "assets/teams/MGF.png"
+ },
+ {
+  "name": "Maycam Evolve",
+  "logo": "assets/teams/Maycam_Evolve.png"
+ },
+ {
+  "name": "Monster Vicious",
+  "logo": "assets/teams/Monster_Vicious.png"
+ },
+ {
+  "name": "Mythic SEAL",
+  "logo": "assets/teams/Mythic_SEAL.png"
+ },
+ {
+  "name": "Natus Vincere",
+  "logo": "assets/teams/Natus_Vincere.png"
+ },
+ {
+  "name": "NewTomorrow",
+  "logo": "assets/teams/NewTomorrow.png"
+ },
+ {
+  "name": "Niightmare Esports",
+  "logo": "assets/teams/Niightmare_Esports.png"
+ },
+ {
+  "name": "Nimbus Gaming",
+  "logo": "assets/teams/Nimbus_Gaming.png"
+ },
+ {
+  "name": "Nova Eclipse",
+  "logo": "assets/teams/Nova_Eclipse.png"
+ },
+ {
+  "name": "ONIC",
+  "logo": "assets/teams/ONIC.png"
+ },
+ {
+  "name": "ONIC Philippines",
+  "logo": "assets/teams/ONIC_Philippines.png"
+ },
+ {
+  "name": "ORIS Esports",
+  "logo": "assets/teams/ORIS_Esports.png"
+ },
+ {
+  "name": "Ocean Black",
+  "logo": "assets/teams/Ocean_Black.png"
+ },
+ {
+  "name": "Omega Esports",
+  "logo": "assets/teams/Omega_Esports.png"
+ },
+ {
+  "name": "PRO Esports",
+  "logo": "assets/teams/PRO_Esports.png"
+ },
+ {
+  "name": "R8 Esports",
+  "logo": "assets/teams/R8_Esports.png"
+ },
+ {
+  "name": "RA'AD",
+  "logo": "assets/teams/RA_AD.png"
+ },
+ {
+  "name": "REJECT",
+  "logo": "assets/teams/REJECT.png"
+ },
+ {
+  "name": "RLG SE",
+  "logo": "assets/teams/RLG_SE.png"
+ },
+ {
+  "name": "RRQ Akira",
+  "logo": "assets/teams/RRQ_Akira.png"
+ },
+ {
+  "name": "RRQ Hoshi",
+  "logo": "assets/teams/RRQ_Hoshi.png"
+ },
+ {
+  "name": "RRQ Tora",
+  "logo": "assets/teams/RRQ_Tora.png"
+ },
+ {
+  "name": "RSG Malaysia",
+  "logo": "assets/teams/RSG_Malaysia.png"
+ },
+ {
+  "name": "RSG Philippines",
+  "logo": "assets/teams/RSG_Philippines.png"
+ },
+ {
+  "name": "Rare Atom",
+  "logo": "assets/teams/Rare_Atom.png"
+ },
+ {
+  "name": "Rebellion Esports",
+  "logo": "assets/teams/Rebellion_Esports.png"
+ },
+ {
+  "name": "S2G Esports",
+  "logo": "assets/teams/S2G_Esports.png"
+ },
+ {
+  "name": "SAETA",
+  "logo": "assets/teams/SAETA.png"
+ },
+ {
+  "name": "See You Soon",
+  "logo": "assets/teams/See_You_Soon.png"
+ },
+ {
+  "name": "Selangor Red Giants",
+  "logo": "assets/teams/Selangor_Red_Giants.png"
+ },
+ {
+  "name": "Selcouth",
+  "logo": "assets/teams/Selcouth.png"
+ },
+ {
+  "name": "Shark The Best",
+  "logo": "assets/teams/Shark_The_Best.png"
+ },
+ {
+  "name": "Sun YK",
+  "logo": "assets/teams/Sun_YK.png"
+ },
+ {
+  "name": "Sunset Ravens",
+  "logo": "assets/teams/Sunset_Ravens.png"
+ },
+ {
+  "name": "Superman Team",
+  "logo": "assets/teams/Superman_Team.png"
+ },
+ {
+  "name": "TEC BG",
+  "logo": "assets/teams/TEC_BG.png"
+ },
+ {
+  "name": "TNC Pro Team",
+  "logo": "assets/teams/TNC_Pro_Team.png"
+ },
+ {
+  "name": "TNR Esports",
+  "logo": "assets/teams/TNR_Esports.png"
+ },
+ {
+  "name": "TODAK",
+  "logo": "assets/teams/TODAK.png"
+ },
+ {
+  "name": "Team 7",
+  "logo": "assets/teams/Team_7.png"
+ },
+ {
+  "name": "Team Falcons",
+  "logo": "assets/teams/Team_Falcons.png"
+ },
+ {
+  "name": "Team Falcons PH",
+  "logo": "assets/teams/Team_Falcons_PH.png"
+ },
+ {
+  "name": "Team Flash",
+  "logo": "assets/teams/Team_Flash.png"
+ },
+ {
+  "name": "Team Flash KH",
+  "logo": "assets/teams/Team_Flash_KH.png"
+ },
+ {
+  "name": "Team From Gaming",
+  "logo": "assets/teams/Team_From_Gaming.png"
+ },
+ {
+  "name": "Team HAQ",
+  "logo": "assets/teams/Team_HAQ.png"
+ },
+ {
+  "name": "Team IBS",
+  "logo": "assets/teams/Team_IBS.png"
+ },
+ {
+  "name": "Team Liquid ID",
+  "logo": "assets/teams/Team_Liquid_ID.png"
+ },
+ {
+  "name": "Team Liquid PH",
+  "logo": "assets/teams/Team_Liquid_PH.png"
+ },
+ {
+  "name": "Team Max",
+  "logo": "assets/teams/Team_Max.png"
+ },
+ {
+  "name": "Team Occupy",
+  "logo": "assets/teams/Team_Occupy.png"
+ },
+ {
+  "name": "Team RVZ",
+  "logo": "assets/teams/Team_RVZ.png"
+ },
+ {
+  "name": "Team Revenge",
+  "logo": "assets/teams/Team_Revenge.png"
+ },
+ {
+  "name": "Team Rey",
+  "logo": "assets/teams/Team_Rey.png"
+ },
+ {
+  "name": "Team Spirit",
+  "logo": "assets/teams/Team_Spirit.png"
+ },
+ {
+  "name": "Team Star Boyz",
+  "logo": "assets/teams/Team_Star_Boyz.png"
+ },
+ {
+  "name": "Team TDN",
+  "logo": "assets/teams/Team_TDN.png"
+ },
+ {
+  "name": "Team Vamos",
+  "logo": "assets/teams/Team_Vamos.png"
+ },
+ {
+  "name": "Team Zone",
+  "logo": "assets/teams/Team_Zone.png"
+ },
+ {
+  "name": "The Huns Esports",
+  "logo": "assets/teams/The_Huns_Esports.png"
+ },
+ {
+  "name": "The MongolZ",
+  "logo": "assets/teams/The_MongolZ.png"
+ },
+ {
+  "name": "The Young Gaming",
+  "logo": "assets/teams/The_Young_Gaming.png"
+ },
+ {
+  "name": "Tidal Legends Gaming",
+  "logo": "assets/teams/Tidal_Legends_Gaming.png"
+ },
+ {
+  "name": "Titan Esports Club AR",
+  "logo": "assets/teams/Titan_Esports_Club_AR.png"
+ },
+ {
+  "name": "Torb Srouch",
+  "logo": "assets/teams/Torb_Srouch.png"
+ },
+ {
+  "name": "True Rippers",
+  "logo": "assets/teams/True_Rippers.png"
+ },
+ {
+  "name": "Twisted Minds",
+  "logo": "assets/teams/Twisted_Minds.png"
+ },
+ {
+  "name": "Twisted Minds PH",
+  "logo": "assets/teams/Twisted_Minds_PH.png"
+ },
+ {
+  "name": "U2 Esports",
+  "logo": "assets/teams/U2_Esports.png"
+ },
+ {
+  "name": "ULF Esports",
+  "logo": "assets/teams/ULF_Esports.png"
+ },
+ {
+  "name": "Ultra Legends",
+  "logo": "assets/teams/Ultra_Legends.png"
+ },
+ {
+  "name": "Unselfish",
+  "logo": "assets/teams/Unselfish.png"
+ },
+ {
+  "name": "Untitled Esports",
+  "logo": "assets/teams/Untitled_Esports.png"
+ },
+ {
+  "name": "VSG",
+  "logo": "assets/teams/VSG.png"
+ },
+ {
+  "name": "Valhalla",
+  "logo": "assets/teams/Valhalla.png"
+ },
+ {
+  "name": "Vanguard Clew",
+  "logo": "assets/teams/Vanguard_Clew.png"
+ },
+ {
+  "name": "Vigor Apex",
+  "logo": "assets/teams/Vigor_Apex.png"
+ },
+ {
+  "name": "Virtus.pro",
+  "logo": "assets/teams/Virtus_pro.png"
+ },
+ {
+  "name": "Will of D",
+  "logo": "assets/teams/Will_of_D.png"
+ },
+ {
+  "name": "Wings Esports KH",
+  "logo": "assets/teams/Wings_Esports_KH.png"
+ },
+ {
+  "name": "WukongX",
+  "logo": "assets/teams/WukongX.png"
+ },
+ {
+  "name": "XProjekt Esports",
+  "logo": "assets/teams/XProjekt_Esports.png"
+ },
+ {
+  "name": "XTY",
+  "logo": "assets/teams/XTY.png"
+ },
+ {
+  "name": "YBINGAME",
+  "logo": "assets/teams/YBINGAME.png"
+ },
+ {
+  "name": "YG",
+  "logo": "assets/teams/YG.png"
+ },
+ {
+  "name": "Yangon Galacticos",
+  "logo": "assets/teams/Yangon_Galacticos.png"
+ },
+ {
+  "name": "Ying Jiang Nan",
+  "logo": "assets/teams/Ying_Jiang_Nan.png"
+ },
+ {
+  "name": "ZETA DIVISION",
+  "logo": "assets/teams/ZETA_DIVISION.png"
+ },
+ {
+  "name": "Zino Esports",
+  "logo": "assets/teams/Zino_Esports.png"
+ }
+]
